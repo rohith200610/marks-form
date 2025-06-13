@@ -1,0 +1,8 @@
+<form>
+  <input type="text" placeholder="Enter your name" [(ngModel)]="name" name="name" />
+  <input type="text" placeholder="Enter your subject" [(ngModel)]="subject" name="subject" />
+  <input type="number" placeholder="Enter your marks1" [(ngModel)]="marks1" name="marks1" />
+  <input type="number" placeholder="Enter your marks2" [(ngModel)]="marks2" name="marks2" />
+  <button type="submit" >submit</button>
+</form>
+<p>Hello {{name}}! your score in {{subject}} are {{marks1+marks2}}</p>
